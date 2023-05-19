@@ -1,0 +1,48 @@
+pwd
+who
+who am i
+cat>file
+wc file
+wc    -l
+	-w
+	-m
+head -1 file
+sort -r file
+
+chmod 776 file	
+
+
+grep -i <word>
+     -v 
+     -c
+     -n
+
+
+curl
+	-0
+wget
+	-o
+ 
+who          - currently logged user
+users        - surrent shell
+echo $shell  - current shell
+echo $home   - home directory
+uname        - os type
+echo $path   - curretn path
+users | wc-w - current logged account
+
+
+uname -a            - all user type
+cat /etc/shells     - available shells
+cat /proc/cpuinfo   
+	   /meminfo
+         /mounts  
+sudo lshw -class disk
+
+
+
+awk '{print}' rahul.txt
+awk '{print $1 "\t" $2}' rahul.txt
+awk '{if($2==1) print}' rahul.txt
+awk 'BEGIN{c=0}//{if($2==1) c=c+1} END{print(c)}' rahul.txt
+awk 'BEGIN{c=0}//{c=c+1} END{print(c)}' rahul.txt
